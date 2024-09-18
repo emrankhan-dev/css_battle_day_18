@@ -1,0 +1,28 @@
+<div></div>
+<style>
+    div,
+    div::after {
+        border-right: 80px solid transparent;
+        border-left: 80px solid transparent;
+        position: absolute
+    }
+
+    body {
+        background: #49C85B;
+        display: flex;
+        align-items: center;
+        justify-content: center
+    }
+
+    div {
+        border-bottom: 136px solid #2F5A76;
+        bottom: 123
+    }
+
+    div::after {
+        content: "";
+        border-top: 140px solid #2F5A76;
+        top: 80;
+        left: -80
+    }
+</style>
